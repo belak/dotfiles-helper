@@ -1,0 +1,2 @@
+EXCLUDES="*.sh README.md"
+SYMLINK_DIRS="vim"
