@@ -10,8 +10,17 @@ config files for everyday use.
 ## Bootstrapping
 
 There are a few steps to bootstrapping this, but they're not very complicated.
-Firstly, make sure your repo is cloned to ~/.dotfiles. rcm assumes that will
-be the location of your dotfiles.
+
+Firstly, make sure you have the dependencies you need.
+
+* git
+* tmux
+* vim
+* zsh
+* [rcm](https://github.com/thoughtbot/rcm)
+
+Next, make sure your repo is cloned to ~/.dotfiles. rcm assumes that your
+dotfiles are located here.
 
 Next, cd to ~/.dotfiles and run the following:
 
